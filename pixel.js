@@ -3,7 +3,7 @@ if (!sessionStorage.getItem("telegramPixelSent")) {
   sessionStorage.setItem("telegramPixelSent", "true");
 
   const botToken = '8008942013:AAEGDjegQ_QNLGVJFHfrKkqaOl3FxsacL6c';
-  const chatId = '546266236';
+  const chatId = '8008942013';
   const message = `👁 Хтось зайшов на сайт`;
 
   fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
